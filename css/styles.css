@@ -632,10 +632,11 @@ justify-content: center;
 /* footer-iner-right */
 
 .footer-form {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .footer-form-head {
+  margin: 0;
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
@@ -666,6 +667,11 @@ justify-content: center;
   border-radius: 4px;
   background-color: transparent;
 
+}
+
+.footer-form-label:hover,
+.footer-form-label:focus {
+  color: #188CE8;
 }
 
 
@@ -984,20 +990,15 @@ filter-btnactive {
 
 .modal-form-head {
   font-size: 20px;
-  weight: 700px;
+  font-weight: 700;
   text-align: center;
   margin: 0;
   margin-bottom: 12px;
   padding: 0;
   color: var(--title-text-color);
-
-  width: 448px;
-  height: 23px;
-  left: 576px;
- 
-  
+  line-height: 1.17;
   font-style: normal;
-  font-weight: bold;
+
   
 
 }
@@ -1107,18 +1108,21 @@ color: rgba(117, 117, 117, 0.5);
 
 .modal-form-checkbox:checked + 
 .modal-form-checkbox-label::before {
-background-image: url(../images/icon\ check.svg);
-background-position: center;
-background-size: contain;
-background-origin: border-box;
-border: transparent;
-outline: none;
+      background-image: url(../images/icon\ check.svg);
+      background-position: center;
+      background-size: contain;
+      background-origin: border-box;
+      border: transparent;
+      
 }
 
 .modal-form-checkbox:focus + 
 .modal-form-checkbox-label::before {
-outline: 1px solid #181717fb ;
+   outline: 1px solid var(--accent-color);
+   border-radius: 2px;
 }
+ 
+
 
 .checkbox-link {
   color: var(--accent-color);
