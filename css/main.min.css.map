@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,KAAK,AAAC,CACF,oBAAoB,CAAA,QAAC,CACrB,kBAAkB,CAAA,QAAC,CACnB,cAAc,CAAA,QAAC,CACf,kBAAkB,CAAA,QAAC,CACnB,YAAY,CAAA,QAAC,CACb,kBAAkB,CAAA,QAAC,CACnB,sBAAsB,CAAA,QAAC,CACvB,cAAc,CAAA,QAAC,CACf,YAAY,CAAA,QAAC,CACd",
     "sources": [
-        "../ssas/main.scss"
+        "../ssas/main.scss",
+        "../ssas/utils/variables.scss"
     ],
     "names": [],
     "file": "main.min.css"
