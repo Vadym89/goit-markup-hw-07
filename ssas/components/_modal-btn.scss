@@ -1,0 +1,25 @@
+.modal-close-icon {
+    fill: currentColor;
+  }
+  
+  .modal-btn {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--hero-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--title-text-color);
+   
+  }
+  
+  
+  .modal-btn:hover,
+  .modal-btn:focus {
+    color: var(--accent-color);
+  }
