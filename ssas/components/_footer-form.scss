@@ -35,12 +35,13 @@
     border-radius: 4px;
     background-color: transparent;
   
-  }
   
-  .footer-form-label:hover,
-  .footer-form-label:focus {
+  
+  &:hover,
+  &:focus {
     color: #188CE8;
   }
+}
   
   
   .footer-form-input::placeholder {

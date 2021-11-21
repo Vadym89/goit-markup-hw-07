@@ -27,12 +27,12 @@
     border-style: none;
     
    
-  }
   
-  .button-primary:hover,
-  .button-primary:focus {
+  &:hover,
+  &:focus {
     background-color: #188CE8
   }
+}
   
   .our-team {
     font-weight: 500;

@@ -429,8 +429,7 @@ li {
   background-color: transparent;
 }
 
-.footer-form-label:hover,
-.footer-form-label:focus {
+.footer-form-input:hover, .footer-form-input:focus {
   color: #188CE8;
 }
 
@@ -514,8 +513,7 @@ li {
   border-style: none;
 }
 
-.button-primary:hover,
-.button-primary:focus {
+.button-primary:hover, .button-primary:focus {
   background-color: #188CE8;
 }
 
