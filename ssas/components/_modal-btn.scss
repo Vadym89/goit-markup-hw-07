@@ -15,11 +15,25 @@
     align-items: center;
     justify-content: center;
     color: var(--title-text-color);
-   
-  }
   
-  
-  .modal-btn:hover,
-  .modal-btn:focus {
+  &:hover,
+  &:focus {
     color: var(--accent-color);
   }
+  
+}
+
+.team-text {
+  margin-bottom: 16;
+  margin-top: 0px;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+ 
+}
+
+.our-team,
+.team-text {
+  text-align: center;
+}

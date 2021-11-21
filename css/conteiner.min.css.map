@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACE,AAAA,UAAU,AAAC,CACT,KAAK,CAAE,MAAM,CACb,YAAY,CAAE,IAAI,CAClB,aAAa,CAAE,IAAI,CACnB,MAAM,CAAE,MAAM,CAEf",
-    "sources": [
-        "../ssas/components/conteiner.scss"
-    ],
-    "names": [],
-    "file": "conteiner.min.css"
-}

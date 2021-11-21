@@ -58,3 +58,64 @@
     letter-spacing: 0.03em;
     color: var(--primery-title-color);
   }
+
+
+  
+.contakts-address {
+  font-style: inherit;
+}
+
+.contakts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contakts-item {
+  margin-bottom: 9px;
+}
+.contakts-item:last-child {
+  margin-bottom: 0;
+}
+
+.address-link {
+  margin-bottom: 9px;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--hero-color);
+  background-color: var(--background-color-two);
+  text-decoration: none;
+}
+
+
+.footer-social {
+  margin-left: 70px;
+}
+
+.footer-social-title {
+  margin: 0;
+  margin-bottom: 20px;
+  color: var(--hero-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.social-item {
+  align-items: center;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
