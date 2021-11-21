@@ -11,14 +11,15 @@
   .clients-list-item {
     width: calc(100% / 6 - 30px);
     margin-left: 30px;
-  }
+  
   
   .clients-list-item-link:hover,
-  .clients-list-item-link:focus {
+  &:focus {
     border: 1px solid var(--accent-color); 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
   }
+}
   
   .clients-list-item-link {
   
@@ -37,10 +38,11 @@
     fill: var(--grey-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
-  }
   
   
-  .clients-list-item-link:hover .clients-icon,
-  .clients-list-item-link:focus .clients-icon {
+  
+  .clients-list-item-link:hover &,
+  .clients-list-item-link:focus & {
    fill: var(--accent-color);
   }
+}

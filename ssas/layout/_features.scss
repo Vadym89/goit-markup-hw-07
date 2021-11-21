@@ -7,11 +7,12 @@
     width: 270px;
     margin: 0 auto;
     margin-left: 0;
-  }
   
-  .item:not(:last-child) {
+  
+  &:not(:last-child) {
     margin-right: 30px;
   }
+}
   
   .feature-list,
   title {

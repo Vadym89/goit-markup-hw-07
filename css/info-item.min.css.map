@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../ssas/layout/info-item.scss"
-    ],
-    "names": [],
-    "file": "info-item.min.css"
-}
